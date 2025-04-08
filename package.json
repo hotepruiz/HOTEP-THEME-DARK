@@ -1,0 +1,21 @@
+{
+  "name": "hotep-theme-dark",
+  "displayName": "Hotep Theme Dark",
+  "description": "Tema personalizado para mi",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "titoshosito theme dark ",
+        "uiTheme": "vs-dark",
+        "path": "./themes/titoshosito theme dark -color-theme.json"
+      }
+    ]
+  }
+}
