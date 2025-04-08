@@ -1095,6 +1095,15 @@
           "foreground": "#f92672"
         }
       },
+	  {
+        "scope": [
+          "variable.other.rust"
+        ],
+        "settings": {
+          "name": "rust specific",
+          "foreground": "#EEDA9D"
+        }
+      },
       {
         "scope": [
           "keyword.declaration.class.ruby",
@@ -1223,7 +1232,7 @@
         ],
         "settings": {
           "name": "Function call (vs)",
-          "foreground": "#a6e22e"
+          "foreground": "#0db8a3"
         }
       },
       {
