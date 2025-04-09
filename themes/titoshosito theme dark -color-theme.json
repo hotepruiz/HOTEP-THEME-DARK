@@ -842,6 +842,21 @@
           "foreground": "#31b8f1"
         }
       },
+      /*JAva script??----------------------------------------------------------------------------------------------------------------*/
+      {
+        "scope": "source.js",
+        "settings": {
+          "name": "source.js",
+          "foreground": "#EEDA9D"
+        }
+      },
+      {
+        "scope": "meta.definition.function.js",
+        "settings": {
+          "name": "functions.js",
+          "foreground": "#EEDA9D"
+        }
+      },
       {
         "scope": [
           "entity.name.tag",
@@ -936,7 +951,7 @@
         ],
         "settings": {
           "name": "Function names / calls",
-          "foreground": "#14ffe4"
+          "foreground": "#0DB8A3"
         }
       },
       {
@@ -974,6 +989,7 @@
           "foreground": "#ae81ff"
         }
       },
+/*RUST----------------------------------------------------------------------------------------------------------------------------------*/      
       {
         "scope": ["entity.name.type.rust",
 		"entity.name.type.numeric.rust",
@@ -991,6 +1007,14 @@
           "foreground": "#f92672"
         }
       },
+      {
+        "scope": ["punctuation.definition.string.rust"],
+        "settings": {
+          "name": "comillas string",
+          "foreground": "#CCAA21"
+        }
+      },
+/*END RUST----------------------------------------------------------------------------------------------------------------------------------*/  
       {
         "scope": "invalid",
         "settings": {
@@ -1082,7 +1106,7 @@
         ],
         "settings": {
           "name": "rust specific",
-          "foreground": "#b12675"
+          "foreground": "#66D9EF"
         }
       },
       {
@@ -1225,6 +1249,17 @@
           "foreground": "#919288"
         }
       },
+      /*JAva script?? END----------------------------------------------------------------------------------------------------------------*/
+      /*PYTHON-------------------------------------------------------------------------------------*/
+      {
+        "scope": [
+          "source.python"
+        ],
+        "settings": {
+          "name": "source y llamada a argumentos python",
+          "foreground": "#EEDA9D"
+        }
+      },
       {
         "scope": [
           "meta.function-call.generic.python",
@@ -1235,13 +1270,53 @@
           "foreground": "#0db8a3"
         }
       },
+     /* {
+        "scope": [
+          "keyword.control.flow.python"
+        ],
+        "settings": {
+          "name": "controlflow.python",
+          "foreground": "#FD971F"
+        }
+      },*/
+      {
+        "scope": ["punctuation.separator.element.python",
+        "punctuation.separator.dict.python",
+        "punctuation.separator.parameters.python"],
+        "settings": {
+          "name": "puntuacion",
+          "foreground": "#468d1d"
+        }
+      },
+      
+      {
+        "scope": ["punctuation.definition.string.begin.python",
+        "punctuation.definition.string.end.python"],
+        "settings": {
+          "name": "comillas dde string",
+          "foreground": "#ccaa21"
+        }
+      },
       {
         "scope": "meta.function-call.python meta.function-call.arguments.python",
         "settings": {
           "name": "Function arguments (vs)",
-          "foreground": "#fdfff1"
+          "foreground": "#EEDA9D"
         }
       },
+      {
+        "scope": [
+          "variable.language",
+          "variable.parameter.function.language.special.self.python",
+          "variable.parameter.function.language.special.cls.python"
+        ],
+        "settings": {
+          "name": "Reserved variable names that are specified by the language, such as this, self, super, arguments. Also in function arguments (e.g. like in Python)",
+          "fontStyle": "italic",
+          "foreground": "#c0c1b5"
+        }
+      },
+      /*PYTHON END---------------------------------------------------------------------------------------------------------------------------*/
       {
         "scope": "meta.interpolation",
         "settings": {
@@ -1280,7 +1355,7 @@
         "scope": "source.json meta.mapping.key string",
         "settings": {
           "name": "JSON keys",
-          "foreground": "#fdfff1"
+          "foreground": "#EEDA9D"
         }
       },
       {
@@ -1649,8 +1724,7 @@
         ],
         "settings": {
           "name": "Keywords that affect the storage of a variable, function or data structure should use the following scope. Examples include static, inline, const, public and private.",
-          "fontStyle": "italic",
-          "foreground": "#f92672"
+          "foreground": "#FD971F"
         }
       },
       {
@@ -1682,7 +1756,7 @@
         ],
         "settings": {
           "name": "rust specific",
-          "foreground": "#66d9ef"
+          "foreground": "#fd971f"
         }
       },
       {
@@ -1692,12 +1766,12 @@
           "storage.modifier.dyn.rust",
           "storage.modifier.mut.rust",
           "storage.modifier.static.rust",
-          "keyword.other.rust",
+          
           "keyword.other.where.rust"
         ],
         "settings": {
           "name": "rust specific (adjust blue to red)",
-          "foreground": "#f92672"
+          "foreground": "#fd971f"
         }
       },
       {
@@ -1915,22 +1989,11 @@
         ],
         "settings": {
           "name": "Function arguments",
-          "fontStyle": "italic",
-          "foreground": "#fd971f"
+          /*"fontStyle": "italic",*/
+          "foreground": "#EEDA9D" /*"#fd971f"*/
         }
       },
-      {
-        "scope": [
-          "variable.language",
-          "variable.parameter.function.language.special.self.python",
-          "variable.parameter.function.language.special.cls.python"
-        ],
-        "settings": {
-          "name": "Reserved variable names that are specified by the language, such as this, self, super, arguments. Also in function arguments (e.g. like in Python)",
-          "fontStyle": "italic",
-          "foreground": "#c0c1b5"
-        }
-      },
+      
       {
         "scope": "variable.language.arguments",
         "settings": {
@@ -1988,7 +2051,7 @@
         "scope": "variable.function",
         "settings": {
           "name": "Function and method names should be scoped using the following, but only when they are being invoked. When defined, they should use entity.name.function.",
-          "foreground": "#a6e22e"
+          "foreground": "#14FFE4"
         }
       },
       {
