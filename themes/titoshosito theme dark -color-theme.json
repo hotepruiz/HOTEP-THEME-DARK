@@ -946,7 +946,7 @@
         ],
         "settings": {
           "name": "CSS class",
-          "foreground": "#49693c"
+          "foreground": "#00A86B"
         }
       },
       {
@@ -1024,10 +1024,11 @@
       {
         "scope": ["entity.name.type.rust",
 		    "entity.name.type.numeric.rust",
+        "entity.name.type.primitive.rust"
 		    ],
         "settings": {
           "name": "rust specific",
-          "foreground": "#28c55d"
+          "foreground": "#00A86B"
         }
       },
       {
@@ -1054,7 +1055,7 @@
         }
       },
       {
-        "scope": ["punctuation.definition.interpolation.rust"],
+        "scope": ["punctuation.definition.interpolation.rust",],
         "settings": {
           "name": "rust specific",
           "foreground": "#f92672"
@@ -1062,8 +1063,7 @@
       },
       {
         "scope": [
-          "keyword.other.fn.rust",
-          "entity.name.function.rust",
+          "entity.name.function.rust"
         ],
         "settings": {
           "name": "rust specific",
@@ -1072,7 +1072,9 @@
       },
       {
         "scope": ["meta.function.call.rust entity.name.function.rust",
-        "entity.name.function.macro.rust"],
+        "entity.name.function.macro.rust",
+        "keyword.other.fn.rust",
+        "keyword.other.rust"],
         "settings": {
           "foreground": "#0DB8A3"
         }
@@ -1090,9 +1092,8 @@
       },
       {
         "scope": [
-          "keyword.other.rust",
           "keyword.operator.misc.rust",
-          "keyword.operator.misc.rust"
+          "keyword.operator.misc.rust",
         ],
         "settings": {
           "name": "rust specific",
@@ -1448,7 +1449,7 @@
         "scope": "meta.instance.constructor",
         "settings": {
           "name": "Constructor (new MyClass())",
-          "foreground": "#a6e22e"
+          "foreground": "#00A86B"
         }
       },
       {
@@ -1458,13 +1459,25 @@
         ],
         "settings": {
           "name": "Class string name (i.e. in html attributes)",
-          "foreground": "#3b7e08"
+          "foreground": "#00A86B"
+        }
+      },
+      {
+        "scope": [
+          "meta.tag.metadata.script.start.html entity.name.tag.html",
+          "meta.tag.metadata.script.end.html entity.name.tag.html",
+        ],
+        "settings": {
+          "name": "Class string name (i.e. in html attributes)",
+          "foreground": "#66D9EF"
         }
       },
       {
         "scope": [
           "meta.attribute-with-value.id string",
-          "meta.attribute.id.html string"
+          "meta.attribute.id.html string",
+          "meta.tag.metadata.style.start.html entity.name.tag.html",
+          "meta.tag.metadata.style.end.html entity.name.tag.html"
         ],
         "settings": {
           "name": "ID string name (i.e. in html attributes)",
@@ -1472,7 +1485,8 @@
         }
       },
       {
-        "scope": "source.json meta.mapping.key string",
+        "scope":["source.json meta.mapping.key string",
+        "support.type.property-name.json"],
         "settings": {
           "name": "JSON keys",
           "foreground": "#EEDA9D"
@@ -1559,7 +1573,7 @@
         ],
         "settings": {
           "name": "Variable indicator (i.e. in php or in include directives in sass)",
-          "foreground": "#c0c1b5"
+          "foreground": "#FD971F"
         }
       },
       {
@@ -1777,8 +1791,7 @@
         "scope": "storage.type",
         "settings": {
           "name": "Types and definition / declaration keywords should use the following scope. Examples include int, bool, char, func, function, class and def. Depending on the language and semantics, const may be this or storage.modifier.",
-          "fontStyle": "italic",
-          "foreground": "#66d9ef"
+          "foreground": "#00A86B"
         }
       },
       {
@@ -1969,14 +1982,14 @@
         "scope": "support.function",
         "settings": {
           "name": "function name",
-          "foreground": "#a6e22e"
+          "foreground": "#0DB8A3"
         }
       },
       {
         "scope": "support.macro",
         "settings": {
           "name": "support macro",
-          "foreground": "#a6e22e"
+          "foreground": "#0DB8A3"
         }
       },
       {
@@ -2060,7 +2073,7 @@
         ],
         "settings": {
           "name": "Variable",
-          "foreground": "#fdfff1"
+          "foreground": "#EEDA9D"
         }
       },
       {
