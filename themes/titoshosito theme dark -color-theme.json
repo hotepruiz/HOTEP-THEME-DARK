@@ -771,7 +771,7 @@
         ],
         "settings": {
           "name": "Functions",
-          "foreground": "#38d6e7"
+          "foreground": "#66D9EF"
         }
       },
       {
@@ -844,17 +844,18 @@
       },
       /*JAva script??----------------------------------------------------------------------------------------------------------------*/
       {
-        "scope": "source.js",
+        "scope": ["source.js",
+        "variable.other.readwrite.js"],
         "settings": {
-          "name": "source.js",
+          "name": "javascript specific",
           "foreground": "#EEDA9D"
         }
       },
       {
-        "scope": "meta.definition.function.js",
+        "scope": ["meta.definition.function.js entity.name.function.js"],
         "settings": {
-          "name": "functions.js",
-          "foreground": "#EEDA9D"
+          "name": "javascript specific",
+          "foreground": "#66d9ef"
         }
       },
       {
@@ -865,10 +866,33 @@
           "source.vue support.class.component"
         ],
         "settings": {
-          "name": "Tag name",
+          "name": "javascript specific i think",
           "foreground": "#f92672"
         }
       },
+      {
+        "scope": ["variable.other.object.js"],
+        "settings": {
+          "name": "javascript specific",
+          "foreground": "#EEDA9D"
+        }
+      },
+      {
+        "scope": ["punctuation.definition.string.begin.js",
+        "punctuation.definition.string.end.js"],
+        "settings": {
+          "name": "javascript specific",
+          "foreground": "#CCAA21"
+        }
+      },
+      {
+        "scope": ["storage.type.js"],
+        "settings": {
+          "name": "javascript specific",
+          "foreground": "#FD971F"
+        }
+      },
+//javascript end---------------------------------------------------------------------------------------
       {
         "scope": "source.ansible entity.name.tag",
         "settings": {
@@ -909,7 +933,7 @@
         "settings": {
           "name": "Tag attribute",
           "fontStyle": "italic",
-          "foreground": "#66d9ef"
+          "foreground": "#EEDA9D"
         }
       },
       {
@@ -922,7 +946,7 @@
         ],
         "settings": {
           "name": "CSS class",
-          "foreground": "#a6e22e"
+          "foreground": "#49693c"
         }
       },
       {
@@ -989,15 +1013,30 @@
           "foreground": "#ae81ff"
         }
       },
+      {
+        "scope": "punctuation",
+        "settings": {
+          "name": "Punctuation",
+          "foreground": "#919288"
+        }
+      },
 /*RUST----------------------------------------------------------------------------------------------------------------------------------*/      
       {
         "scope": ["entity.name.type.rust",
-		"entity.name.type.numeric.rust",
-		"entity.name.function.macro.rust"
-		],
+		    "entity.name.type.numeric.rust",
+		    ],
         "settings": {
           "name": "rust specific",
           "foreground": "#28c55d"
+        }
+      },
+      {
+        "scope": ["keyword.operator.access.dot.rust",
+        "keyword.operator.key-value.rust"
+		    ],
+        "settings": {
+          "name": "rust specific",
+          "foreground": "#EEDA9D"
         }
       },
       {
@@ -1010,16 +1049,21 @@
       {
         "scope": ["punctuation.definition.string.rust"],
         "settings": {
-          "name": "comillas string",
+          "name": "rust specific",
           "foreground": "#CCAA21"
+        }
+      },
+      {
+        "scope": ["punctuation.definition.interpolation.rust"],
+        "settings": {
+          "name": "rust specific",
+          "foreground": "#f92672"
         }
       },
       {
         "scope": [
           "keyword.other.fn.rust",
-          "keyword.other.rust",
-          "keyword.other.unsafe.rust",
-          "keyword.other.where.rust"
+          "entity.name.function.rust",
         ],
         "settings": {
           "name": "rust specific",
@@ -1027,9 +1071,17 @@
         }
       },
       {
+        "scope": ["meta.function.call.rust entity.name.function.rust",
+        "entity.name.function.macro.rust"],
+        "settings": {
+          "foreground": "#0DB8A3"
+        }
+      },
+      {
         "scope": [
           "keyword.control.rust",
-          "keyword.operator.misc.rust"
+          "keyword.other.unsafe.rust",
+          "keyword.other.where.rust",
         ],
         "settings": {
           "name": "rust specific",
@@ -1038,7 +1090,19 @@
       },
       {
         "scope": [
-          "variable.other.rust"
+          "keyword.other.rust",
+          "keyword.operator.misc.rust",
+          "keyword.operator.misc.rust"
+        ],
+        "settings": {
+          "name": "rust specific",
+          "foreground": "#FD971F"
+        }
+      },
+      {
+        "scope": [
+          "variable.other.rust",
+          "entity.name.namespace.rust"
         ],
         "settings": {
           "name": "rust specific",
@@ -1046,10 +1110,11 @@
         }
       },
       {
-        "scope": "meta.type_params.rust",
+        "scope": ["meta.type_params.rust",
+        "meta.function.call.rust punctuation.brackets.round.rust"],
         "settings": {
           "name": "rust specific (brackets and certain type names)",
-          "foreground": "#fdfff1"
+          "foreground": "#f92672"
         }
       },
       {
@@ -1079,12 +1144,16 @@
         }
       },
       {
-        "scope": "punctuation",
+        "scope": [
+          "meta.type variable",
+          "meta.type variable.other.readwrite"
+        ],
         "settings": {
-          "name": "Punctuation",
-          "foreground": "#919288"
+          "name": "type annotation",
+          "foreground": "#ae81ff"
         }
       },
+      
 /*END RUST----------------------------------------------------------------------------------------------------------------------------------*/  
       {
         "scope": "invalid",
@@ -1127,7 +1196,7 @@
         "scope": [
           "keyword.operator",
           "keyword.operator.member",
-          "keyword.operator.new"
+          "keyword.operator.new",
         ],
         "settings": {
           "name": "Operator",
@@ -1289,6 +1358,8 @@
           "foreground": "#919288"
         }
       },
+
+
       /*JAva script?? END----------------------------------------------------------------------------------------------------------------*/
       /*PYTHON-------------------------------------------------------------------------------------*/
       {
@@ -1298,6 +1369,15 @@
         "settings": {
           "name": "source y llamada a argumentos python",
           "foreground": "#EEDA9D"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function.python"
+        ],
+        "settings": {
+          "name": "source y llamada a argumentos python",
+          "foreground": "#66D9EF"
         }
       },
       {
@@ -1378,7 +1458,7 @@
         ],
         "settings": {
           "name": "Class string name (i.e. in html attributes)",
-          "foreground": "#a6e22e"
+          "foreground": "#3b7e08"
         }
       },
       {
@@ -1755,6 +1835,7 @@
           "storage.class.std.rust"
         ],
         "settings": {
+          "fontStyle": "",
           "name": "rust specific",
           "foreground": "#fd971f"
         }
@@ -2087,3 +2168,4 @@
       }
     ]
   }
+
