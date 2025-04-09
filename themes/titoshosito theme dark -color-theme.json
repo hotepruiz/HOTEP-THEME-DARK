@@ -1,9 +1,4 @@
 {
-    "name": "Hotep theme dark",
-    "type": "dark",
-    "author": "Monokai",
-    "uuid": "80f15e1b-1789-50a6-8010-70c32bb81b6d",
-    "colorSpaceName": "sRGB",
     "colors": {
       "activityBar.activeFocusBorder": "#e6db74",
       "activityBar.background": "#161613",

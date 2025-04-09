@@ -1,8 +1,9 @@
 {
-  "name": "hotep-theme-dark",
-  "displayName": "Hotep Theme Dark",
-  "description": "Tema personalizado para mi",
-  "version": "0.0.1",
+  "name": "hotepruiz-theme-dark",
+  "displayName": "HotepRuiz Theme Dark",
+  "description": "Tema que hice casi a mano para los principales lenguajes que uso (Python, js, rust, html, etc.), puede que funcione mal con otros lenguajes (C#)",
+  "publisher": "HotepRuiz",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.99.0"
   },
@@ -17,5 +18,17 @@
         "path": "./themes/titoshosito theme dark -color-theme.json"
       }
     ]
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/hotepruiz/HOTEP-THEME-DARK.git"
+  },
+  "keywords": [
+    "theme",
+    "hotepruiz",
+    "hotep",
+    "rust theme",
+    "hotep theme dark",
+    "dark theme"
+  ]
 }

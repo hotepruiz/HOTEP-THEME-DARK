@@ -17,5 +17,5 @@ You can author your README using Visual Studio Code. Here are some useful editor
 **Enjoy!**
 =======
 # HOTEP-THEME-DARK
-Mi tema personalizado para vscode
+Tema qeu hice para mi mismo pero decidi subir, pensado en los lenguaes que mas uso(rust,py,js, html y eso), hay unos que se miran mal (c#)
 >>>>>>> e3cc0ca858cc627900c8a38d8ffabc8e416d4e5a
