@@ -1014,6 +1014,77 @@
           "foreground": "#CCAA21"
         }
       },
+      {
+        "scope": [
+          "keyword.other.fn.rust",
+          "keyword.other.rust",
+          "keyword.other.unsafe.rust",
+          "keyword.other.where.rust"
+        ],
+        "settings": {
+          "name": "rust specific",
+          "foreground": "#66D9EF"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.rust",
+          "keyword.operator.misc.rust"
+        ],
+        "settings": {
+          "name": "rust specific",
+          "foreground": "#f92672"
+        }
+      },
+      {
+        "scope": [
+          "variable.other.rust"
+        ],
+        "settings": {
+          "name": "rust specific",
+          "foreground": "#EEDA9D"
+        }
+      },
+      {
+        "scope": "meta.type_params.rust",
+        "settings": {
+          "name": "rust specific (brackets and certain type names)",
+          "foreground": "#fdfff1"
+        }
+      },
+      {
+        "scope": [
+          "meta.attribute.rust",
+          "meta.annotation.rust",
+          "variable.language.rust",
+          "variable.annotation.rust",
+          "meta.annotation.rust string",
+          "meta.annotation.rust keyword",
+          "meta.annotation.rust keyword.operator",
+          "meta.attribute.rust string"
+        ],
+        "settings": {
+          "name": "rust specific (variable.language.rust is 'self' keyword.",
+          "foreground": "#c0c1b5"
+        }
+      },
+      {
+        "scope": [
+          "meta.type variable",
+          "meta.type variable.other.readwrite"
+        ],
+        "settings": {
+          "name": "type annotation",
+          "foreground": "#ae81ff"
+        }
+      },
+      {
+        "scope": "punctuation",
+        "settings": {
+          "name": "Punctuation",
+          "foreground": "#919288"
+        }
+      },
 /*END RUST----------------------------------------------------------------------------------------------------------------------------------*/  
       {
         "scope": "invalid",
@@ -1095,37 +1166,6 @@
         "settings": {
           "name": "elm parenthesis",
           "foreground": "#919288"
-        }
-      },
-      {
-        "scope": [
-          "keyword.other.fn.rust",
-          "keyword.other.rust",
-          "keyword.other.unsafe.rust",
-          "keyword.other.where.rust"
-        ],
-        "settings": {
-          "name": "rust specific",
-          "foreground": "#66D9EF"
-        }
-      },
-      {
-        "scope": [
-          "keyword.control.rust",
-          "keyword.operator.misc.rust"
-        ],
-        "settings": {
-          "name": "rust specific",
-          "foreground": "#f92672"
-        }
-      },
-	  {
-        "scope": [
-          "variable.other.rust"
-        ],
-        "settings": {
-          "name": "rust specific",
-          "foreground": "#EEDA9D"
         }
       },
       {
@@ -1394,46 +1434,6 @@
         "settings": {
           "name": "git diff header",
           "foreground": "#e6db74"
-        }
-      },
-      {
-        "scope": "meta.type_params.rust",
-        "settings": {
-          "name": "rust specific (brackets and certain type names)",
-          "foreground": "#fdfff1"
-        }
-      },
-      {
-        "scope": [
-          "meta.attribute.rust",
-          "meta.annotation.rust",
-          "variable.language.rust",
-          "variable.annotation.rust",
-          "meta.annotation.rust string",
-          "meta.annotation.rust keyword",
-          "meta.annotation.rust keyword.operator",
-          "meta.attribute.rust string"
-        ],
-        "settings": {
-          "name": "rust specific (variable.language.rust is 'self' keyword.",
-          "foreground": "#c0c1b5"
-        }
-      },
-      {
-        "scope": [
-          "meta.type variable",
-          "meta.type variable.other.readwrite"
-        ],
-        "settings": {
-          "name": "type annotation",
-          "foreground": "#ae81ff"
-        }
-      },
-      {
-        "scope": "punctuation",
-        "settings": {
-          "name": "Punctuation",
-          "foreground": "#919288"
         }
       },
       {
