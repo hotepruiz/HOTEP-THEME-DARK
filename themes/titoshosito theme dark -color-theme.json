@@ -866,6 +866,17 @@
         }
       },
       {
+        "scope": [
+          "entity.name.tag.inline.any.html",
+          "entity.name.tag.block.any.html",
+          "entity.name.tag.other.html"
+        ],
+        "settings": {
+          "name": "html",
+          "foreground": "#f92672"
+        }
+      },
+      {
         "scope": ["variable.other.object.js"],
         "settings": {
           "name": "javascript specific",
@@ -887,7 +898,61 @@
           "foreground": "#FD971F"
         }
       },
-//javascript end---------------------------------------------------------------------------------------
+//c#---------------------------------------------------------------------------------------
+{
+  "scope": ["entity.name.type.namespace.cs",
+  "entity.name.variable.field.cs",
+  "entity.name.variable.event.cs",
+  "entity.name.variable.local.cs",
+  "variable.other.readwrite.cs",
+  "entity.name.variable.parameter.cs"],
+  "settings": {
+    "name": "c# specific",
+    "foreground": "#EEDA9D"
+  }
+},
+{
+  "scope": ["storage.type.event.cs",
+  "entity.name.variable.enum-member.cs",
+  "entity.name.variable.property.cs",],
+  "settings": {
+    "name": "c# specific",
+    "foreground": "#EEDA9D"
+  }
+},
+{
+  "scope": ["keyword.type.int.cs",
+  "keyword.type.string.cs",
+  "storage.type.event.cs",
+  "storage.type.class.cs",
+  "storage.type.enum.cs",
+  "storage.type.struct.cs",
+  "keyword.type.bool.cs",
+  "variable.language.discard.cs",
+  "constant.language.null.cs"],
+  "settings": {
+    "name": "c# specific",
+    "foreground": "#FD971F"
+  }
+},
+{
+  "scope": ["entity.name.type.cs"],
+  "settings": {
+    "name": "c# specific",
+    "foreground": "#00A86B"
+  }
+},
+{
+  "scope": ["storage.modifier.public.cs",
+  "storage.modifier.private.cs",
+  "storage.modifier.protected.cs",
+  "variable.language.this.cs"],
+  "settings": {
+    "name": "c# specific",
+    "foreground": "#F92672"
+  }
+},
+//c# end---------------------------------------------------------------------------------------
       {
         "scope": "source.ansible entity.name.tag",
         "settings": {
@@ -1484,7 +1549,7 @@
         "support.type.property-name.json"],
         "settings": {
           "name": "JSON keys",
-          "foreground": "#EEDA9D"
+          "foreground": "#0DB8A3"
         }
       },
       {
