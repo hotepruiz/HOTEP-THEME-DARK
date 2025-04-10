@@ -840,10 +840,18 @@
       /*JAva script??----------------------------------------------------------------------------------------------------------------*/
       {
         "scope": ["source.js",
-        "variable.other.readwrite.js"],
+        "variable.other.readwrite.js",
+        "variable.other.constant.js"],
         "settings": {
           "name": "javascript specific",
           "foreground": "#EEDA9D"
+        }
+      },
+      {
+        "scope": ["variable.other.property.js"],
+        "settings": {
+          "name": "javascript specific",
+          "foreground": "#0DB8A3"
         }
       },
       {

@@ -1,21 +1,19 @@
-<<<<<<< HEAD
-# hotep-theme-dark README
+Basado en los colores de monokai pro (classic) pero con mas color en la syntaxis, tiene varias cosas específicas que puse a mano, por lo que puede que aún hayan errores con los colores en algunos lenguajes.
 
-## Working with Markdown
+Lo hice pensando y teniendo especial cuidado para los lenguajes que mas uso/me gustan (Rust, Python, JS y todo lo relacionado a web) pero deberia servir para uso general siempre y cuando no usen un lenguaje super raro, incluso ajuste unas cosas para lenguajes que no uso, como C#.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Python:
+![CapturaPython](./imagenes/py.png)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Rust:
+![CapturaRust](./imagenes/rust.png)
 
-## For more information
+JavaScript:
+![CapturaJs](./imagenes/js.png)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Json:
+![CapturaJson](./imagenes/json.png)
 
-**Enjoy!**
-=======
-# HOTEP-THEME-DARK
-Tema qeu hice para mi mismo pero decidi subir, pensado en los lenguaes que mas uso(rust,py,js, html y eso), hay unos que se miran mal (c#)
->>>>>>> e3cc0ca858cc627900c8a38d8ffabc8e416d4e5a
+probablemente le baje un poquito al rosado, en el futuro.
+
+por: Hotep Ruiz, estudiante de ingenieria en computación, UNI Nicaragua

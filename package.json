@@ -1,9 +1,9 @@
 {
   "name": "hotepruiz-theme-dark",
   "displayName": "HotepRuiz Theme Dark",
-  "description": "Tema que hice casi a mano para los principales lenguajes que uso (Python, js, rust, html, etc.), puede que funcione mal con otros lenguajes (C#)",
+  "description": "Basado en monokai classic",
   "publisher": "HotepRuiz",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.99.0"
   },
@@ -29,6 +29,11 @@
     "hotep",
     "rust theme",
     "hotep theme dark",
-    "dark theme"
+    "dark theme",
+    "monokai",
+    "monokai classic",
+    "nicaragua",
+    "UNI",
+    "rust"
   ]
 }
