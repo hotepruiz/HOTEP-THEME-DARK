@@ -906,6 +906,68 @@
           "foreground": "#FD971F"
         }
       },
+//typescript
+{
+  "scope": ["variable.other.enummember.ts",
+  "variable.other.readwrite.ts",
+  "meta.object-literal.key.ts"],
+  "settings": {
+    "name": "typescript specific",
+    "foreground": "#EEDA9D"
+  }
+},
+{
+  "scope": ["storage.modifier.async.ts",
+  "variable.language.this.ts"],
+  "settings": {
+    "name": "typescript specific",
+    "foreground": "#F92672"
+  }
+},
+{
+  "scope": ["storage.type.function.ts",
+  "storage.type.class.ts",
+  "support.class.promise.ts",
+  "storage.type.enum.ts",
+  "storage.type.interface.ts",
+  "storage.type.namespace.ts"],
+  "settings": {
+    "name": "typescript specific",
+    "foreground": "#FD971F"
+  }
+},
+{
+  "scope": ["storage.type.ts"],
+  "settings": {
+    "name": "typescript specific",
+    "foreground": "#FD971F"
+  }
+},
+{
+  "scope": ["variable.other.property.ts"],
+  "settings": {
+    "name": "typescript specific",
+    "foreground": "#0DB8A3"
+  }
+},
+{
+  "scope": ["support.type.primitive.ts"],
+  "settings": {
+    "name": "typescript specific",
+    "foreground": "#00A86B"
+  }
+},
+{
+  "scope": ["punctuation.definition.string.template.begin.ts",
+  "punctuation.definition.string.template.end.ts",
+  "punctuation.definition.string.begin.ts",
+  "punctuation.definition.string.end.ts"],
+  "settings": {
+    "name": "typescript specific",
+    "foreground": "#CCAA21"
+  }
+},
+
 //c#---------------------------------------------------------------------------------------
 {
   "scope": ["entity.name.type.namespace.cs",
